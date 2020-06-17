@@ -5,7 +5,7 @@ const ArticleItem = (props) => {
   return (
     <div>
       <span>
-        <h3><a href={props.article.url} target="_blank">{props.article.title}</a></h3>
+        <h3><a href={props.article.url} target="_blank" rel="noopener noreferrer">{props.article.title}</a></h3>
         <p>By: {props.article.by}</p>
       </span>
     </div>
